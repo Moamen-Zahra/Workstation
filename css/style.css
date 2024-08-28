@@ -172,8 +172,13 @@ header ul li #s:hover::after , header ul li #end:hover::after {
 }
 .div2 .parent1 a {
     text-decoration: none;
+    position: absolute;
     font-size: 24px;
     color: #154360;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 15px;
 }
 .div2 .parent1 .parent1-div1:hover .title1, .div2 .parent1 .parent1-div2:hover .title2 , .div2 .parent1 .parent1-div3:hover .title3 {
     color: #fff;
@@ -264,29 +269,12 @@ header ul li #s:hover::after , header ul li #end:hover::after {
 .parent2-parent1 h2 , .parent2-parent2 h2{
     position: absolute;
     top: 30%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
     font-size: 35px;
     opacity: 0;
     z-index: 1;
     color: black;
-}
-#a {
-    margin-left: 155px;
-}
-#b {
-    margin-left: 129px;
-}
-#c {
-    margin-left: 129px;
-}
-#d {
-    margin-left: 134px;
-}
-#e {
-    margin-left: 160px;
-}
-#f {
-    margin-left: 134px;
 }
 .parent2-parent1 p ,.parent2-parent2 p {
     position: absolute;
@@ -296,23 +284,18 @@ header ul li #s:hover::after , header ul li #end:hover::after {
     opacity: 0;
     z-index: 1;
 }
-.i2 {
+.icon1 {
     position: absolute;
-    top: 60%;
-    margin: 10px 20px 0px -285px;
-    font-size: 40px;
-    opacity: 0;
+    top: 62%;
+    width: 100%;
+    text-align: center;
     z-index: 1;
-    color: #154360;
+    word-spacing: 20px;
 }
-.i3{
-    position: absolute;
-    top: 60%;
-    margin: 10px 20px 0px -205px;
+.i2 , .i3{
     font-size: 40px;
+    opacity: 0; 
     color: #154360;
-    opacity: 0;
-    z-index: 1;
 }
 .parent2-parent1-div1:hover h2 , .parent2-parent1-div2:hover h2 ,.parent2-parent1-div3:hover h2 {
     opacity: 100%;
@@ -535,6 +518,7 @@ header ul li #s:hover::after , header ul li #end:hover::after {
     background: url(../img/back.jpg);
     background-size: cover;
     background-attachment: fixed;
+    line-height: normal;
 }
 .div6 .parent4 {
     position: relative ;
@@ -661,7 +645,6 @@ header ul li #s:hover::after , header ul li #end:hover::after {
 }
 .parent5-div1:hover button , .parent5-div2:hover button ,  .parent5-div3:hover button{
     background-color: #D3D3D3;
-    font-weight: bold;
     transition: 2s;
 }
 .parent5-div1::after ,.parent5-div2::after ,.parent5-div3::after {
@@ -687,7 +670,7 @@ header ul li #s:hover::after , header ul li #end:hover::after {
     z-index: -1;
 }
 .div8 {
-    background: url(../img/back2.jpeg) fixed;
+    background: url(../img/back2.jpg) fixed;
     background-size: cover;
     width: 100%;
     height: 450px;
